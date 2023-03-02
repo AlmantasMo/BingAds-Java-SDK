@@ -89,6 +89,7 @@ import javax.xml.bind.annotation.XmlType;
  *     &lt;enumeration value="AllRevenuePerConversion"/>
  *     &lt;enumeration value="ViewThroughConversions"/>
  *     &lt;enumeration value="Goal"/>
+ *     &lt;enumeration value="GoalId"/>
  *     &lt;enumeration value="GoalType"/>
  *     &lt;enumeration value="AudienceImpressionSharePercent"/>
  *     &lt;enumeration value="AudienceImpressionLostToRankPercent"/>
@@ -270,6 +271,8 @@ public enum AdGroupPerformanceReportColumn {
     VIEW_THROUGH_CONVERSIONS("ViewThroughConversions"),
     @XmlEnumValue("Goal")
     GOAL("Goal"),
+    @XmlEnumValue("GoalId")
+    GOAL_ID("GoalId"),
     @XmlEnumValue("GoalType")
     GOAL_TYPE("GoalType"),
     @XmlEnumValue("AudienceImpressionSharePercent")
